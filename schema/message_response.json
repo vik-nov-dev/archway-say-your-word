@@ -1,14 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "CountResponse",
+  "title": "MessageResponse",
   "type": "object",
   "required": [
-    "count"
+    "message"
   ],
   "properties": {
-    "count": {
-      "type": "integer",
-      "format": "int32"
+    "message": {
+      "type": "string"
     }
   }
 }

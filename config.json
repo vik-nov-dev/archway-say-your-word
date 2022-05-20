@@ -12,7 +12,71 @@
       "query": "archwayd query wasm",
       "tx": "archwayd tx wasm execute"
     },
-    "deployments": []
+    "deployments": [
+      {
+        "type": "set-metadata",
+        "chainId": "torii-1",
+        "contract": "archway1t58wgkqsxpt77wjma5l6qy85hg8wlvt8ufxvzmx3vafwjw4fyj3snwe84a",
+        "contractMetadata": {
+          "developerAddress": "archway1s6kx0v0hz3ufe7x8hgn8n44hycl0cr2vr8zc58",
+          "rewardAddress": "archway1s6kx0v0hz3ufe7x8hgn8n44hycl0cr2vr8zc58",
+          "collectPremium": false,
+          "gasRebate": true
+        }
+      },
+      {
+        "type": "instantiate",
+        "chainId": "torii-1",
+        "codeId": 52498,
+        "address": "archway1t58wgkqsxpt77wjma5l6qy85hg8wlvt8ufxvzmx3vafwjw4fyj3snwe84a",
+        "admin": "archway1s6kx0v0hz3ufe7x8hgn8n44hycl0cr2vr8zc58"
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52498
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52490
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52478
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52462
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52452
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52447
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52444
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52441
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 52438
+      }
+    ]
   },
   "network": {
     "name": "torii",
@@ -22,13 +86,13 @@
       "feeDenom": "utorii"
     },
     "gas": {
-      "prices": "0.002utorii",
+      "prices": "0.03utorii",
       "mode": "auto",
-      "adjustment": "1.3"
+      "adjustment": "1.5"
     },
     "wasm": {
       "bech32Hrp": "archway",
-      "archwayd": "0.0.4",
+      "archwayd": "0.0.5",
       "configDir": ".archway",
       "binary": "archwayd"
     },

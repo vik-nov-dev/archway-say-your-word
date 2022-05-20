@@ -1,6 +1,6 @@
 # Simple Archway hello world smart contract
 
-Is meant to test subsidizing users fees
+**Is meant to test subsidizing users fees**
 
 The below instructions assume you understand the theory and just want to get coding.
 

@@ -1,4 +1,4 @@
-# Simple Archway hello word smart contract
+# Simple Archway hello world smart contract
 
 Is meant to test subsidizing users fees
 

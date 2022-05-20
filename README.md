@@ -1,10 +1,6 @@
-# Archway Network Starter Pack
+# Simple Archway hello word smart contract
 
-This is a template to build smart contracts in Rust to run inside a
-[Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
-To understand the framework better, please read the overview in the
-[archway repo](https://github.com/archway-network/archway/blob/main/README.md),
-and dig into the [archway docs](https://docs.archway.io).
+Is meant to test subsidizing users fees
 
 The below instructions assume you understand the theory and just want to get coding.
 
